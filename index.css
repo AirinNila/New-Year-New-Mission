@@ -208,7 +208,6 @@
       flex-direction: column;
       justify-content: center;
       gap: 20px;
-      width: 450px;
       margin-top: 70px;
      }
      .year {
@@ -240,6 +239,158 @@
      .new-party-p{
       height: 300px;
      }
+
+     /* holiday section style */
+
+     .holiday-offer {
+      margin-top: 100px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+     }
+
+     .what-f {
+      font-size: 24px;
+      font-weight: 500px;
+     }
+
+     .holiday-discount{
+      font-size: 72px;
+      font-weight: 700;
+     }
+
+     .h-colour {
+      color: #FF0000;
+     }
+
+     .holiday-des {
+      font-size: 20px;
+      font-weight: 400;
+     }
+
+     .pic-container {
+      display: flex;
+      margin-top: 100px;
+      justify-content: space-between;
+     }
+
+    .discount-logo {
+      height: 200px;
+      margin-top: 100px;
+    
+    }
+
+     .female-pic {
+        background-image: url(/image/Rectangle\ 1.png);
+        height: 400px;
+        width: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+      
+      
+     }
+
+     /* .rectangle {
+      background-image: url(/image/Rectangle\ 2.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+     }  */
+
+     .gift {
+      height: 600px;
+     }
+
+     /* portfolio section */
+
+     .portfolio{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+     }
+
+     .portfolio-des-c{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+     }
+
+     .best-gift{
+      font-size: 24px;
+      font-weight: 500;
+      color: #FF0000;
+     }
+
+     .awsome-p {
+      font-size: 48px;
+
+     }
+
+     .portfolio-content-c {
+      display: flex;
+      gap: 10px;
+      margin-top: 30px;
+     }
+
+     .p-img{
+      width: 330px;
+      background-size: cover;
+     }
+
+     .subscribe {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      margin-top: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #fff2f2;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      text-align: center;
+     }
+
+     .s-logo {
+      width: 150px;
+     }
+
+     .s-des {
+      font-size: 20px;
+     }
+
+     .email {
+      display: flex;
+      height: 72px;
+      width: 600px;
+     }
+
+     .email-input{
+      border: none;
+      width: 400px;
+      border-top-left-radius: 200px;
+      border-bottom-left-radius: 200px;
+      padding-left: 30px;
+      font-size: 18px;
+
+     }
+     .s-btn {
+      border: none;
+      width: 200px;
+      border-top-right-radius: 200px;
+      border-bottom-right-radius: 200px;
+      font-size: 20px;
+      background-color: #FF0000;
+      color: white;
+     }
+
+     /* footer style */
+
 
      
 
