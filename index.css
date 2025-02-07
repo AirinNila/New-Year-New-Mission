@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
    padding: 0;
@@ -6,18 +10,18 @@
 
 /* add font-family */
 
-    .merriweather {
-        font-family: "Merriweather", serif;
-        font-weight: 600;
-        font-style: normal;
-      }
+body {
+  font-family: "Inter", serif;
+ 
+}
 
-      body {
-          font-family: "Inter", serif;
-          font-optical-sizing: auto;
-          font-weight: weight;
-          font-style: normal;
-      }
+     .merriweather {
+        font-family: "Merriweather", serif;
+     
+       
+      } 
+
+      
       
       /* header style */
 
@@ -269,39 +273,43 @@
       font-weight: 400;
      }
 
-     .pic-container {
+    /* pic */
+  .container{ 
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 100px;
+  }
+  .main-container{
+      position: relative;
+      height: 500px;
+  }
+  
+  .main{
       display: flex;
-      margin-top: 100px;
-      justify-content: space-between;
-     }
+      z-index: 2;
+  }
+  .bottom-img{
+      position: absolute;
+      bottom: -150px;
+  }
+  .offer{
+      z-index: 1;
+        }
+  
+  .images{
+      position: relative;
+  }
+  .offer2{
+      position: absolute;
+      top: 10%;
+      left: -40%;
+  }
 
-    .discount-logo {
-      height: 200px;
-      margin-top: 100px;
-    
-    }
+  .Rectangle-2 {
+    width: 100%;
+  }
 
-     .female-pic {
-        background-image: url(/image/Rectangle\ 1.png);
-        height: 400px;
-        width: 400px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
-      
-      
-     }
-
-     /* .rectangle {
-      background-image: url(/image/Rectangle\ 2.png);
-      background-repeat: no-repeat;
-      background-position: bottom;
-     }  */
-
-     .gift {
-      height: 600px;
-     }
-
+     
      /* portfolio section */
 
      .portfolio{
