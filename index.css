@@ -169,4 +169,68 @@
       color: white;
      }
 
+     /* offer section style */
+
+     .offer-container{
+      display: flex;
+      margin-top: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+      gap: 50px;
+     }
+
+     .offer-semi-c1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      width: 650px;
+     }
+
+     .offer-greating{
+      color: #FF0000;
+      font-size: 24px;
+      font-weight: 600;
+     }
+
+     .coming-s{
+      font-size: 48px;
+      color: #070211;
+     }
+
+     .offer-des{
+      font-size: 20px;
+      color: #070211;
+     }
+
+     .offer-semi-c3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+     }
+     .year {
+      font-size: 48px;
+      font-weight: 600;
+      color: #FF0000;
+     }
+
+     .happy-new-year{
+      width: 140px;
+     }
+
+     /* set party image */
+
+     .offer-semi-c2{
+      background-image: url(../image/Ellipse\ 1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 550px;
+      border-radius: 50%;
+      border: #FF0000 solid 10px;
+      padding: 10px 10px 10px 10px;
+     }
+
+    
+
      
