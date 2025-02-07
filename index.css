@@ -208,6 +208,8 @@
       flex-direction: column;
       justify-content: center;
       gap: 20px;
+      width: 450px;
+      margin-top: 70px;
      }
      .year {
       font-size: 48px;
@@ -222,14 +224,24 @@
      /* set party image */
 
      .offer-semi-c2{
-      background-image: url(../image/Ellipse\ 1.png);
       background-size: cover;
       background-repeat: no-repeat;
-      width: 550px;
+      width: 350px;
+      height: 310px;
       border-radius: 50%;
       border: #FF0000 solid 10px;
       padding: 10px 10px 10px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 30px 30px 30px;
      }
+
+     .new-party-p{
+      height: 300px;
+     }
+
+     
 
     
 
